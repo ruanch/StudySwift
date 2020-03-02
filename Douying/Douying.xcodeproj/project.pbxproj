@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0669A6240D07DB00BF2291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0669A5240D07DB00BF2291 /* AppDelegate.swift */; };
+		1F0669A8240D07DB00BF2291 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0669A7240D07DB00BF2291 /* SceneDelegate.swift */; };
+		1F0669AA240D07DB00BF2291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0669A9240D07DB00BF2291 /* ViewController.swift */; };
+		1F0669AD240D07DB00BF2291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0669AB240D07DB00BF2291 /* Main.storyboard */; };
+		1F0669AF240D07DF00BF2291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0669AE240D07DF00BF2291 /* Assets.xcassets */; };
+		1F0669B2240D07DF00BF2291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0669B0240D07DF00BF2291 /* LaunchScreen.storyboard */; };
+		1F0669BC240D0B4900BF2291 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1F0669BB240D0B4800BF2291 /* Podfile */; };
+		ED2BEFB3A6E117ED8E455962 /* Pods_Douying.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A22526BEEC847A2D25E1C7 /* Pods_Douying.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16A22526BEEC847A2D25E1C7 /* Pods_Douying.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Douying.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0669A2240D07DB00BF2291 /* Douying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douying.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0669A5240D07DB00BF2291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F0669A7240D07DB00BF2291 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F0669A9240D07DB00BF2291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F0669AC240D07DB00BF2291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F0669AE240D07DF00BF2291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0669B1240D07DF00BF2291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F0669B3240D07DF00BF2291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0669BB240D0B4800BF2291 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B4530D6CA2AB62CA74D65D55 /* Pods-Douying.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douying.release.xcconfig"; path = "Target Support Files/Pods-Douying/Pods-Douying.release.xcconfig"; sourceTree = "<group>"; };
+		E66A703FC0E91DC23511E9D6 /* Pods-Douying.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douying.debug.xcconfig"; path = "Target Support Files/Pods-Douying/Pods-Douying.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F06699F240D07DB00BF2291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2BEFB3A6E117ED8E455962 /* Pods_Douying.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F066999240D07DB00BF2291 = {
+			isa = PBXGroup;
+			children = (
+				1F0669BB240D0B4800BF2291 /* Podfile */,
+				1F0669A4240D07DB00BF2291 /* Douying */,
+				1F0669A3240D07DB00BF2291 /* Products */,
+				2A9430AFDF8B72252D72113D /* Pods */,
+				5428D98B6C7F37187B532D3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0669A3240D07DB00BF2291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0669A2240D07DB00BF2291 /* Douying.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0669A4240D07DB00BF2291 /* Douying */ = {
+			isa = PBXGroup;
+			children = (
+				1F0669A5240D07DB00BF2291 /* AppDelegate.swift */,
+				1F0669A7240D07DB00BF2291 /* SceneDelegate.swift */,
+				1F0669A9240D07DB00BF2291 /* ViewController.swift */,
+				1F0669AB240D07DB00BF2291 /* Main.storyboard */,
+				1F0669AE240D07DF00BF2291 /* Assets.xcassets */,
+				1F0669B0240D07DF00BF2291 /* LaunchScreen.storyboard */,
+				1F0669B3240D07DF00BF2291 /* Info.plist */,
+			);
+			path = Douying;
+			sourceTree = "<group>";
+		};
+		2A9430AFDF8B72252D72113D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E66A703FC0E91DC23511E9D6 /* Pods-Douying.debug.xcconfig */,
+				B4530D6CA2AB62CA74D65D55 /* Pods-Douying.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5428D98B6C7F37187B532D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16A22526BEEC847A2D25E1C7 /* Pods_Douying.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0669A1240D07DB00BF2291 /* Douying */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0669B6240D07DF00BF2291 /* Build configuration list for PBXNativeTarget "Douying" */;
+			buildPhases = (
+				46865893FDBD27BF2CDCA675 /* [CP] Check Pods Manifest.lock */,
+				1F06699E240D07DB00BF2291 /* Sources */,
+				1F06699F240D07DB00BF2291 /* Frameworks */,
+				1F0669A0240D07DB00BF2291 /* Resources */,
+				F1BC655A596B1694B40620A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Douying;
+			productName = Douying;
+			productReference = 1F0669A2240D07DB00BF2291 /* Douying.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F06699A240D07DB00BF2291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = NightElf;
+				TargetAttributes = {
+					1F0669A1240D07DB00BF2291 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F06699D240D07DB00BF2291 /* Build configuration list for PBXProject "Douying" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F066999240D07DB00BF2291;
+			productRefGroup = 1F0669A3240D07DB00BF2291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0669A1240D07DB00BF2291 /* Douying */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F0669A0240D07DB00BF2291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0669B2240D07DF00BF2291 /* LaunchScreen.storyboard in Resources */,
+				1F0669AF240D07DF00BF2291 /* Assets.xcassets in Resources */,
+				1F0669BC240D0B4900BF2291 /* Podfile in Resources */,
+				1F0669AD240D07DB00BF2291 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46865893FDBD27BF2CDCA675 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Douying-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1BC655A596B1694B40620A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Douying/Pods-Douying-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Douying/Pods-Douying-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Douying/Pods-Douying-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F06699E240D07DB00BF2291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0669AA240D07DB00BF2291 /* ViewController.swift in Sources */,
+				1F0669A6240D07DB00BF2291 /* AppDelegate.swift in Sources */,
+				1F0669A8240D07DB00BF2291 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F0669AB240D07DB00BF2291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0669AC240D07DB00BF2291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F0669B0240D07DF00BF2291 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0669B1240D07DF00BF2291 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F0669B4240D07DF00BF2291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F0669B5240D07DF00BF2291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0669B7240D07DF00BF2291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66A703FC0E91DC23511E9D6 /* Pods-Douying.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Douying/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gt.Douying;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F0669B8240D07DF00BF2291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4530D6CA2AB62CA74D65D55 /* Pods-Douying.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Douying/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gt.Douying;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F06699D240D07DB00BF2291 /* Build configuration list for PBXProject "Douying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0669B4240D07DF00BF2291 /* Debug */,
+				1F0669B5240D07DF00BF2291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0669B6240D07DF00BF2291 /* Build configuration list for PBXNativeTarget "Douying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0669B7240D07DF00BF2291 /* Debug */,
+				1F0669B8240D07DF00BF2291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F06699A240D07DB00BF2291 /* Project object */;
+}
